@@ -1,0 +1,16 @@
+{
+  "name": "goldsilvershop",
+  "private": true,
+  "version": "1.0.0",
+  "description": "GoldSilverShop - gold and silver jewellery, coins and bars storefront",
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "dev:backend": "npm run dev --prefix backend",
+    "dev:frontend": "npm run dev --prefix frontend",
+    "build": "npm install --prefix frontend && npm run build --prefix frontend && npm install --prefix backend && npm run build --prefix backend",
+    "start": "npm run start --prefix backend",
+    "migrate:deploy": "npm run migrate:deploy --prefix backend",
+    "seed": "npm run seed --prefix backend",
+    "test": "npm test --prefix backend"
+  }
+}
