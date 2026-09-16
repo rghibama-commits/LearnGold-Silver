@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Gold coin illustration">
+  <rect width="200" height="200" fill="#f0ead9"/>
+  <circle cx="100" cy="100" r="70" fill="#d4af37" stroke="#b8860b" stroke-width="6"/>
+  <circle cx="100" cy="100" r="52" fill="none" stroke="#b8860b" stroke-width="3"/>
+  <text x="100" y="112" font-size="34" text-anchor="middle" fill="#7a5c00" font-family="serif">Au</text>
+</svg>

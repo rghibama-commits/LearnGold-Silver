@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Gold pendant necklace illustration">
+  <rect width="200" height="200" fill="#f0ead9"/>
+  <path d="M40 40 Q100 120 160 40" fill="none" stroke="#d4af37" stroke-width="6"/>
+  <path d="M100 100 L120 140 L100 170 L80 140 Z" fill="#b8860b"/>
+</svg>

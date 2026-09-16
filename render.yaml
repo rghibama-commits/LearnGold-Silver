@@ -1,0 +1,27 @@
+databases:
+  - name: goldsilvershop-db
+    plan: free
+    databaseName: goldsilvershop
+    user: goldsilvershop
+
+services:
+  - type: web
+    name: goldsilvershop
+    runtime: node
+    plan: free
+    buildCommand: npm run build
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: goldsilvershop-db
+          property: connectionString
+      - key: JWT_SECRET
+        generateValue: true
+      - key: NODE_ENV
+        value: production
+      - key: ADMIN_EMAIL
+        sync: false
+      - key: ADMIN_PASSWORD
+        sync: false
